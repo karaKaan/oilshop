@@ -1,0 +1,29 @@
+@import '../../base/colors';
+
+.navWrapper{
+    background-color: $navFooter;
+}
+
+
+.navLinksWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.navLinksWrapper>a{
+    // position: relative;
+    color: $txtColor;
+    font-size: 26px;
+}
+.navLink{
+    margin-right: auto;
+}
+.navLogin{
+    margin-left: 50%;
+
+}
+
+.navImgWrapper{
+    display: inline-block;
+    background-color: #fff;
+}

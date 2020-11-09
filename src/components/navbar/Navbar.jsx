@@ -6,17 +6,18 @@ import './Navbar.scss'
 
 export default function Navbar() {
     return(
-        <nav className="navbar navbar-dark bg-dark">
-            <div className="">
-                <svg></svg>
+        <nav className="navWrapper">
+            <div className="navImgWrapper">
+                <img src="../../img/beard.svg" alt=""/>
                 <span>Img</span>
             </div>
-            <div className="">
-                <Link className="justify-content-center">Link 1</Link>
-                <Link className="justify-content-center">Link 2</Link>
-                <Link className="justify-content-center">Link 3</Link>
-                <Link className="justify-content-center">Link 4</Link>
-                <Link className="">Login</Link>
+            <div className="navLinksWrapper">
+                <Link className="navLink">Link 1</Link>
+                <Link className="navLink">Link 2</Link>
+                <Link className="navLink">Link 3</Link>
+                <Link className="navLink">Link 4</Link>
+                <Link className="navLogin">Login</Link>
+
 
             </div>
         </nav>
