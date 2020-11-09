@@ -12,9 +12,9 @@ export default function Navbar() {
                 <span>Img</span>
             </div>
             <div className="navLinksWrapper">
-                <Link className="navLink">Link 1</Link>
-                <Link className="navLink">Link 2</Link>
-                <Link className="navLink">Link 3</Link>
+                <Link className="navLink">Beard Oil</Link>
+                <Link className="navLink">Oil Parfume</Link>
+                <Link className="navLink">Vitamens</Link>
                 <Link className="navLink">Link 4</Link>
                 <Link className="navLogin">Login</Link>
 
