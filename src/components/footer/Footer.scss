@@ -2,7 +2,8 @@
 
 .footerLinks{
     display: flex;
-    margin: 0 17% 2rem 17%;
+    margin: 0 17% 0 17%;
+    padding-bottom: 2rem;
 }
 .footerLink{
     margin: auto;
@@ -16,17 +17,18 @@
 .footerTitle{
     color: $bgColor;
     margin-left: 48%;
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 .footerWrapper{
     background-color: $navFooter;
     
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
+    margin-top: 10rem;
 }
 .footerWrapper>hr{
-    background-color: white;
+    background-color: $bgColor;
     margin: 2rem 20% 2rem 20%;
 }

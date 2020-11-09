@@ -1,4 +1,15 @@
 $bgColor: #c4a29e;
 $navFooter: #002a32;
 $txtColor: #FFC6AC;
-$danger: #eba6a9
+$inputColor: #f0d4d1;
+$danger: #eba6a9;
+$success: #02aecf;
+
+@mixin successBtn {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: $inputColor;
+    background-color: $success;
+}
