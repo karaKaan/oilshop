@@ -30,7 +30,14 @@
 }
 
 .navImgWrapper{
-    display: flex;
-    margin-left: 100px;
-    background-color: #fff;
+
+}
+
+.navImgWrapper>a>img{
+    height: 70px;
+    width: 100%;
+    margin-left: 50px;
+    background-color: $bgColor;
+
+    border-radius: 200px;
 }
