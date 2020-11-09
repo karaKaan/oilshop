@@ -1,0 +1,27 @@
+@import '../base/colors';
+
+
+.registerFormWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+
+
+.registerFormWrapper>input{
+    @include inputField;
+    
+}
+
+.successBtn{
+    @include successBtn;
+    margin-left: auto;
+    margin-right: 25%;
+}
+
+.loginWrapper>p{
+    color: $inputColor;
+    margin-left: 10%;
+}

@@ -13,3 +13,13 @@ $success: #02aecf;
     color: $inputColor;
     background-color: $success;
 }
+
+@mixin inputField {
+    font-size: 18px;
+    width: 100%;
+    background-color: $inputColor;
+    color: $navFooter;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}

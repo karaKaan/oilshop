@@ -1,14 +1,12 @@
 @import  '../../base/colors';
 .formWrapper{
     // display: flex;
+    // flex-direction: column;
     // justify-content: center;
     align-items: center;
     margin: 5% auto 0 auto;
 }
 
-.formWrapper>input:nth-child(1){
-    margin-bottom: 20px;
-}
 
 .formWrapper>input{
     font-size: 18px;
@@ -17,6 +15,12 @@
     color: $navFooter;
     border-radius: 10px;
     padding: 5px;
+    margin-bottom: 20px;
+}
+.input{
+    // display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .formWrapper>input::placeholder{
@@ -35,8 +39,8 @@
     flex-direction: column;
     background-color: $navFooter;
     width: 50%;
-    height: 600px;
     margin: 15rem auto 20rem auto;
+    padding-bottom: 50px;
     border-radius: 15px;
 }
 
