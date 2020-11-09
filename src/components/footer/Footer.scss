@@ -1,0 +1,32 @@
+@import '../../base/colors';
+
+.footerLinks{
+    display: flex;
+    margin: 0 17% 2rem 17%;
+}
+.footerLink{
+    margin: auto;
+    color: $bgColor;
+    
+}
+.verticalRule{
+    color: $bgColor;
+}
+
+.footerTitle{
+    color: $bgColor;
+    margin-left: 48%;
+    margin-top: 2rem;
+}
+
+.footerWrapper{
+    background-color: $navFooter;
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.footerWrapper>hr{
+    background-color: white;
+    margin: 2rem 20% 2rem 20%;
+}
